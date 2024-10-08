@@ -1,6 +1,6 @@
 FROM python:3.8.5-alpine3.12
 
-RUN apt-get -y update && apt-get -y install curl
+RUN apk update && apk add curl
 
 WORKDIR /usr/src/app
 
