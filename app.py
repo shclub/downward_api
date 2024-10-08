@@ -13,7 +13,7 @@ namespace = os.environ.get('POD_NAMESPACE');
 
 @app.route("/")
 def index():
-    return " Container EDU | POD Working : " + podname + " , "  | nodename : " +  nodename +  " | namespace : " +  namespace + "\n"
+    return " Container EDU | POD Working : " + podname + " | nodename : " +  nodename +  " | namespace : " +  namespace + "\n"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="5000")
