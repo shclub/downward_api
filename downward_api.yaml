@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: main
-    image: shclub/downward_api:v1
+    image: ghcr.io/shclub/downward_api:v1
     command: ["sleep", "99999"]
     resources:
       requests:
