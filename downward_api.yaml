@@ -5,8 +5,8 @@ metadata:
 spec:
   containers:
   - name: main
-    image: ghcr.io/shclub/downward_api:v1
-    command: ["sleep", "99999"]
+    image: ghcr.io/shclub/downward_api:v2
+    # command: ["sleep", "99999"]
     resources:
       requests:
         cpu: 15m
